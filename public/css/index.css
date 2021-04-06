@@ -10,7 +10,8 @@ section.wrapper > h2.title {font-size: 1.5em; margin-bottom: 1.25em;}
 section.wrapper > h3.title {font-style: italic; margin-bottom: 1.5em;}
 section.wrapper > p.content {margin-bottom: 1.5em;}
 
-aside.title-bar {font-size: 2em; letter-spacing: 0.325em; color: #f9f9f9; text-align: center; padding: 5em 0; background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+aside.title-bar {font-size: 2em; letter-spacing: 0.325em; color: #f9f9f9; text-align: center; padding: 5em 0;
+	background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
 aside.title-bar.pf-bar {background-image: url(../img/parallax2.jpg);}
 aside.title-bar.contact-bar {background-image: url(../img/parallax3.jpg);}
 
@@ -165,6 +166,10 @@ aside.title-bar.contact-bar {background-image: url(../img/parallax3.jpg);}
 	.client-bar > .client-wrap > .client {width: 100%; border-bottom: 1px solid #555;}
 	.contact-wrapper > .contact-outwrap > .loc-inwrap {width: 100%;}
 	.contact-wrapper > .contact-outwrap > .info-inwrap {width: 100%; padding-top: 3%; padding-left: 0;}
+	aside.title-bar {background-attachment: unset;}
+	.main-wrapper {background-attachment: unset;}
+
+	
 }
 
 
